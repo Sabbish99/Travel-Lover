@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.all-section {
+    margin: 50px 135px 0px 135px;
+    border: 1px solid red;
+}
+
+
+
+/* nav bar section start */
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-left h2 {
+    font-size: 2.25rem;
+}
+
+.nav-right {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+    font-size: 18px;
+}
+
+.nav-right-1 {
+    display: flex;
+    gap: 44px;
+}
+
+.nav-left-orange {
+    color: #FF5400;
+}
+
+.nav-right-orange {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.bars {
+    display: none;
+}
+
+
+
+
+
+/* nav information starts */
+.nav-info {
+    /* border: 2px solid green; */
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.nav-info-2 {
+    /* border: 2px solid rgb(243, 69, 0); */
+    margin: 100px 180px;
+    padding: 100px;
+    text-align: center;
+    color: white;
+
+}
+
+.nav-info-2 h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.nav-info-2 p {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.5rem 4rem;
+}
+
+.nav-four-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #e6dddd;
+}
+
+.nav-btn-1 {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #a3a3a3;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.nav-btn-4 {
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    /* first section startsss */
+    .all-section {
+        margin: 16px;
+    }
+
+    .nav-left h2 {
+        font-size: 1.5rem;
+    }
+
+    .nav-right {
+        gap: auto;
+    }
+
+    .nav-right-1 {
+        display: none;
+        gap: auto;
+    }
+
+    .bars {
+        display: inline;
+        font-size: 1.5rem;
+        color: #FF5400;
+    }
+
+
+    /* second sections */
+    .nav-info {
+        margin-top: 30px;
+        border-radius: 0px 16px 16px 0px;
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav-info-2 {
+
+        margin: 16px;
+        padding: 16px;
+        text-align: center;
+        color: white;
+
+
+    }
+
+    .nav-info-2 h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #f1570a;
+    }
+
+    .nav-info-2 p {
+        font-size: .9rem;
+        font-weight: 400;
+        padding: 0;
+        margin-bottom: 2rem;
+        color: #646262;
+        text-align: justify;
+    }
+
+    .nav-four-btn {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1.5rem;
+        width: 85%;
+    }
+
+    .nav-btn-1 {
+        background-color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 1rem;
+        color: #a3a3a3;
+        font-size: 1rem;
+        font-weight: 700;
+        width: 95%;
+        text-align: start;
+
+    }
+
+    .nav-btn-4 {
+        background-color: #FF5400;
+        border: none;
+        border-radius: 8px;
+        padding: 1rem;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 700;
+        width: 95%;
+
+    }
+
+
+}
