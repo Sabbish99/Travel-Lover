@@ -472,6 +472,12 @@ footer {
         text-align: justify;
     }
 
+    .main-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .nav-four-btn {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
