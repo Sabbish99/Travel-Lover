@@ -9,7 +9,6 @@ body {
 
 .all-section {
     margin: 50px 135px 0px 135px;
-    border: 1px solid red;
 }
 
 
@@ -365,28 +364,6 @@ li {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer section design */
 footer {
     margin-top: 100px;
@@ -422,6 +399,13 @@ footer {
     font-size: 2rem;
     margin-bottom: 50px;
 }
+
+
+
+
+
+
+
 
 
 
@@ -785,10 +769,6 @@ footer {
         width: 100%;
     }
 
-    .simple-perfect-section-3 {
-        border: 5px solid red;
-
-    }
 
     .simple-perfect-section-3 h1 {
         font-size: 1.25rem;
@@ -798,17 +778,6 @@ footer {
     .simple-perfect-section-3 p {
         font-size: .8rem;
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
