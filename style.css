@@ -538,7 +538,7 @@ footer {
     }
 
     .popular-tours-img img {
-        width: cover;
+        width: 100%;
     }
 
 
