@@ -74,8 +74,6 @@ body {
     background-size: cover;
 }
 
-
-
 .nav-info-2 {
     /* border: 2px solid rgb(243, 69, 0); */
     margin: 100px 180px;
@@ -161,6 +159,193 @@ li {
 
 
 
+/* choose your destination */
+
+.destination-1 {
+    text-align: center;
+    margin: 100px 0px;
+    grid-gap: 50px;
+}
+
+.destination-1 h1 {
+    font-size: 2.5rem;
+}
+
+.destination-1 p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.destination-2 {
+    padding: 10px 250px;
+}
+
+
+.destination-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+
+.destination-3 h2 {
+    font-size: 1.75rem;
+    color: rgb(255, 255, 255);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.destination-4 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.destination-4 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.destination-5 {
+
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+}
+
+.destination-5 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* choose your destination 7 images */
+.maldives {
+    background-image: url(Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.indonesia {
+    background-image: url(Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.srilanka {
+    background-image: url(Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.north-america {
+    background-image: url(Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.kashmir {
+    background-image: url(Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.bangladesh {
+    background-image: url(Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: auto;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.bandarban {
+    background-image: url(Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+
+/* why choose us section start*/
+
+
+
+.choose-section-2 {
+    padding: 30px 250px;
+    border: 5px solid green;
+    text-align: center;
+}
+
+.choose-section-2 h2 {
+    font-size: 2.5rem;
+}
+
+.choose-section-2 p {
+    font-size: .9rem;
+}
+
+.choose-section-3 {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.choose-section-4 {
+    padding: 30px 25px;
+    text-align: justify;
+    border: none;
+    border-radius: 16px;
+    background-color: #f7f0e9;
+}
+
+.choose-section-5 {
+    padding: 30px 25px;
+    text-align: justify;
+    border: none;
+    border-radius: 16px;
+    background-color: #e3f1f5;
+}
+
+.choose-section-6 {
+    padding: 30px 25px;
+    text-align: justify;
+    border: none;
+    border-radius: 16px;
+    background-color: #f8e3e3;
+}
 
 
 
@@ -177,7 +362,23 @@ li {
 
 
 
-@media screen and (max-width:700px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
 
     /* first section startsss */
     .all-section {
@@ -202,6 +403,8 @@ li {
         font-size: 1.5rem;
         color: #FF5400;
     }
+
+
 
 
     /* second sections */
@@ -311,6 +514,225 @@ li {
     .popular-tours-img img {
         width: cover;
     }
+
+
+
+
+
+
+    /* choose your destination */
+
+    .destination-1 {
+        text-align: center;
+
+    }
+
+    .destination-1 h1 {
+        font-size: 2rem;
+
+
+    }
+
+    .destination-1 p {
+        font-size: 12px;
+        padding: 0px 20px;
+    }
+
+    .destination-2 {
+        padding: 16px 2rem;
+        margin-top: 30px;
+    }
+
+
+    .maldives {
+        background-image: url(Images/Rectangle\ 5.png);
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .indonesia {
+        background-image: url(Images/Rectangle\ 8.png);
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .srilanka {
+        background-image: url(Images/Rectangle\ 6.png);
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .north-america {
+        background-image: url(Images/Rectangle\ 7.png);
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .kashmir {
+        background-image: url(Images/Rectangle\ 9.png);
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .bangladesh {
+        background-image: url(Images/Rectangle\ 11.png);
+        background-repeat: no-repeat;
+        height: fit-content;
+        width: auto;
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    .bandarban {
+        background-image: url(Images/Rectangle\ 10.png);
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+
+    .destination-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .destination-3 h2 {
+        height: 300px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .destination-4 {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .destination-4 h2 {
+        height: 300px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .destination-5 {
+
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+
+        gap: 30px;
+
+    }
+
+    .destination-5 h2 {
+        color: white;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+
+
+
+
+
+    /* why choose us section start*/
+
+
+
+    .choose-section-2 {
+        padding: 30px 50px;
+        border: 5px solid green;
+        text-align: center;
+    }
+
+    .choose-section-2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .choose-section-2 p {
+        font-size: .8rem;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .choose-section-3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .choose-section-4 {
+        padding: 30px 25px;
+        text-align: justify;
+        border: none;
+        border-radius: 16px;
+        background-color: #f7f0e9;
+    }
+
+    .choose-section-5 {
+        padding: 30px 25px;
+        text-align: justify;
+        border: none;
+        border-radius: 16px;
+        background-color: #e3f1f5;
+    }
+
+    .choose-section-6 {
+        padding: 30px 25px;
+        text-align: justify;
+        border: none;
+        border-radius: 16px;
+        background-color: #f8e3e3;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
