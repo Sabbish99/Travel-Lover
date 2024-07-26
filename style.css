@@ -233,6 +233,8 @@ li {
 
 }
 
+
+
 /* choose your destination 7 images */
 .maldives {
     background-image: url(Images/Rectangle\ 5.png);
@@ -304,7 +306,6 @@ li {
 
 .choose-section-2 {
     padding: 30px 250px;
-    border: 5px solid green;
     text-align: center;
 }
 
@@ -371,6 +372,43 @@ li {
 
 
 
+
+
+/* footer section design */
+footer {
+    margin-top: 100px;
+}
+
+.footer-1 {
+    text-align: center;
+}
+
+.footer-1 p {
+    padding: 0px 300px;
+}
+
+.footer-1 h4 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-icon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
 
 
 
@@ -668,10 +706,8 @@ li {
     /* why choose us section start*/
 
 
-
     .choose-section-2 {
         padding: 30px 50px;
-        border: 5px solid green;
         text-align: center;
     }
 
@@ -718,6 +754,44 @@ li {
 
 
 
+
+
+    /* footer section design */
+    footer {
+        margin-top: 100px;
+    }
+
+    .footer-1 {
+        text-align: center;
+    }
+
+    .footer-1 p {
+        padding: 0px 36px;
+    }
+
+    .footer-1 h4 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-weight: 400;
+        font-size: .8rem;
+    }
+
+    .footer-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 16px;
+    }
+
+    .footer-icon {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        font-size: 1.25rem;
+        margin-bottom: 50px;
+    }
 
 
 
