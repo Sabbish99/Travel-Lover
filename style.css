@@ -554,18 +554,18 @@ footer {
     }
 
     .destination-1 h1 {
-        font-size: 2rem;
+        font-size: 1.25rem;
 
 
     }
 
     .destination-1 p {
-        font-size: 12px;
-        padding: 0px 20px;
+        font-size: .8rem;
+        padding: 0px;
     }
 
     .destination-2 {
-        padding: 16px 2rem;
+        padding: .8rem;
         margin-top: 30px;
     }
 
@@ -695,7 +695,7 @@ footer {
 
 
     .choose-section-2 {
-        padding: 30px 50px;
+        padding: 0px;
         text-align: center;
     }
 
@@ -783,7 +783,7 @@ footer {
     }
 
     .footer-1 p {
-        padding: 0px 36px;
+        padding: 0px 16px;
     }
 
     .footer-1 h4 {
