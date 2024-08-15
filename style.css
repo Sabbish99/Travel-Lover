@@ -899,11 +899,11 @@ footer {
     }
 
     .angle-btn {
-        width: 200px;
-        height: 100px;
+        width: 250px;
+        height: 80px;
         position: absolute;
-        right: 50px;
-        top: 250px;
+        right: 20px;
+        top: 170px;
 
     }
 
