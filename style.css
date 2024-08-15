@@ -613,12 +613,20 @@ footer {
     li {
         font-size: .8rem;
         padding-bottom: 16px;
+        text-align: justify;
     }
 
     .popular-tours-img img {
         width: 100%;
     }
 
+    .popular-tours-section-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
 
 
 
@@ -640,6 +648,7 @@ footer {
     .destination-1 p {
         font-size: .8rem;
         padding: 0px;
+        text-align: justify;
     }
 
     .destination-2 {
@@ -784,7 +793,7 @@ footer {
     .choose-section-2 p {
         font-size: .8rem;
         text-align: justify;
-        text-align: center;
+
     }
 
     .choose-section-3 {
@@ -846,8 +855,15 @@ footer {
 
     .simple-perfect-section-3 p {
         font-size: .8rem;
+        text-align: justify;
     }
 
+    .simple-perfect-section-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 
@@ -931,6 +947,7 @@ footer {
 
     .footer-1 p {
         padding: 0px 16px;
+        text-align: justify;
     }
 
     .footer-1 h4 {
